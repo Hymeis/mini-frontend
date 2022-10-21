@@ -1,0 +1,86 @@
+html {
+    background-color: black;
+}
+
+.page {
+    overflow-y: auto;
+    height: 100%;
+}
+section {
+
+    position: relative;
+    margin-top: 100px;
+    flex-direction: column;
+    padding-left: 2%;
+    display: flex;
+}
+
+section > * {
+    color: white;
+}
+
+section ul {
+    display: flex;
+}
+
+section ul img {
+    width:180px;
+    height:180px;
+}
+
+section li {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    overflow: wrap;
+    flex-basis: 16%;
+    margin-left: 2px;
+    margin-right: 2px;
+    align-content: space-around;
+    background-color: #111;
+}
+
+section .playlist {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+section h1 {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-size: medium;
+}
+
+section p {
+    color: rgb(192, 192, 192);
+}
+
+section .caption-wrapper {
+    display: flex;
+}
+section li img {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-content: center;
+}
+
+section li:hover {
+    background-color: #444;
+}
+
+section .icon-wrapper {
+    display: none;
+}
+
+section li:hover .icon-wrapper {
+    display: inherit;
+    position: absolute;
+    background-color: rgb(49, 206, 96);
+    border-radius: 50%;
+    left: 40%;
+    top:66px;
+}
+

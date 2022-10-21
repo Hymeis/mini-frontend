@@ -1,0 +1,67 @@
+@import "base.css";
+.side-bar {
+    flex-basis: 15%;
+    position: relative;
+    background-color: var(--accent-color);
+    color: white;
+    overflow: hidden;
+}
+
+.side-bar > * > *:hover {
+    color: #444;
+}
+
+.side-bar > * {
+    margin-left: 10%;
+}
+
+.side-bar .main {
+    flex-grow: 1;
+}
+
+.side-bar .logo {
+    margin-right: 30%;
+    margin-bottom: 10%;
+    margin-top: 6%;
+}
+
+.side-bar span {
+    flex: 1 0 60%;
+    font-size: larger;
+}
+
+.side-bar .svg-wrapper {
+    flex: 0 0 40%;
+    padding-right: var(--padding-sm);
+    display: flex;
+    
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.side-bar .user-main {
+    margin-top: 10%;
+}
+
+.side-bar .disclaimer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 5%;
+}
+
+.side-bar .disclaimer > * {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.side-bar .svg-wrapper svg {
+    flex: 0 0 10%;
+    color: white;
+    height: 32px;
+    margin-right: 5%;
+}
+
+.side-bar .disclaimer {
+    display: flex;
+}

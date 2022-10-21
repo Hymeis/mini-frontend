@@ -1,0 +1,40 @@
+@import "base.css";
+
+.top-bar {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex-direction: row;
+    height: 70px;
+    flex-grow: 1;
+    width: 100%;
+    background-color:rgba(113, 113, 113, 0.6);
+    z-index: 1;
+}
+
+.top-bar .front-back{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.top-bar .login {
+    display: flex;
+    align-items: center;
+}
+
+.top-bar > * > * {
+    padding: 15px 30px 15px 30px;
+}
+
+.top-bar .login a:last-child {
+    background-color: white;
+    border-radius: 25px;
+    
+}
+
+.top-bar .login a:first-child {
+    color:rgb(192, 192, 192);
+    
+}
